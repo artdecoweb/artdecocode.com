@@ -3,7 +3,6 @@
 }
 .SimpleBadge {
     text-decoration: none;
-    display: inline-block !important;
     color: white;
     background-color: #545454;
     border-radius: 2px;
@@ -11,7 +10,6 @@
 }
 .Badge {
     text-decoration: none;
-    display: inline-block !important;
     color: white;
 }
 .Badge > span {
@@ -73,6 +71,10 @@
 .left-column ul {
     list-style-type: none;
     padding: 0;
+}
+.right-column li {
+    padding-bottom: .5rem;
+    line-height: 1.5rem;
 }
 .logo > img {
     max-width: 170px;
