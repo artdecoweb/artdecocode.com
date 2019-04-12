@@ -3,10 +3,11 @@
  */
 const conf = {
   documentary: {
-    title: 'Documentary',
+    title: 'Documentary @ Art Deco Code',
     file: 'redirect.md',
-    url: 'documentary',
+    url: 'documentary/index.html',
     redirect: 'https://github.com/artdecocode/documentary',
+    layout: 'layout/redirect.html',
   }
 }
 
