@@ -18,9 +18,22 @@ const GitHubBadge = (props) => {
   return (<a href={'https://github.com/' + `${org}/${name}`} className="SimpleBadge">GitHub</a>)
 }
 
+/**
+ * @param {{ splendid: import('splendid').Splendid }}
+ */
+const Redirect = ({ splendid }) => {
+  if (!splendid.page.redirect) return null
+  return <meta http-equiv="refresh"
+    content={`0;URL='${splendid.page.redirect}'`} />
+
+}
+
 export default {
   'github-badge': GitHubBadge,
+  redirect: Redirect,
 }
+
+
 
 /**
  * @typedef {Object} GitHubBadgeProps

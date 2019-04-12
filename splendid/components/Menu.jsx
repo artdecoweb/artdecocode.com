@@ -1,11 +1,12 @@
 const Pages = ({ splendid: { pages, page } }) =>
-  <ul className="AjaxNav">
+  <ul>
     {pages.map(({
-      title, menu = title, url, menuUrl = url, file,
+      title, menu = title, url, menuUrl = url, file, redirect,
     }) => {
+      if (!redirect) return
       const active = page.file == file
       return <li className={active ? 'Active' : ''}>
-        <a data-file={file} href={menuUrl}>{menu}</a>
+        <a data-file={file} href={redirect}>{menu}</a>
       </li>
     }
     )}
