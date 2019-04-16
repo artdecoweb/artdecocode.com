@@ -11,6 +11,10 @@ const redirects = {
     title: 'Argufy',
     redirect: 'https://github.com/artdecocode/argufy',
   },
+  depack: {
+    title: 'Depack',
+    redirect: 'https://github.com/dpck/depack',
+  },
 }
 
 /**

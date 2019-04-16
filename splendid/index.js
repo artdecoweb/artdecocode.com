@@ -15,8 +15,9 @@ const config = {
   ],
   output: BUILD_DIR,
   ajax: false,
+  pretty: 100,
   // to generate sitemaps:
-  /* url: https://website.github.io/splendid */
+  url: 'https://artdecocode.com',
 }
 
 export default config
