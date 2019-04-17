@@ -12,6 +12,12 @@ const config = {
       re: /{{ company }}/g,
       replacement: '[Art Deco](https://artd.eco)',
     },
+    {
+      re: /{{ RedirectLink }}/g,
+      replacement() {
+        return `[${this.splendid.page.redirect}](${this.splendid.page.redirect})`
+      },
+    },
   ],
   output: BUILD_DIR,
   ajax: false,

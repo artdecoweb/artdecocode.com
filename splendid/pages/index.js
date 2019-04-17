@@ -15,6 +15,10 @@ const redirects = {
     title: 'Depack',
     redirect: 'https://github.com/dpck/depack',
   },
+  typal: {
+    title: 'Typal',
+    redirect: 'https://github.com/artdecocode/typal',
+  },
 }
 
 /**
