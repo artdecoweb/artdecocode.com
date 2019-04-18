@@ -1,28 +1,9 @@
-.Badge.NoVersion {
-    padding-right: 0.2em;
-}
 .SimpleBadge {
     text-decoration: none;
     color: white;
     background-color: #545454;
     border-radius: 2px;
     padding: 0 0.2em 0 0.2em;
-}
-.Badge {
-    text-decoration: none;
-    color: white;
-}
-.Badge > span {
-    padding: 0 0.2em 0 0.2em;
-}
-.Badge > .name {
-    margin-top: 1em;
-    background-color: #545454;
-    border-radius: 2px 0 0 2px;
-}
-.Badge > .version {
-    background-color: #c12127;
-    border-radius: 0 2px 2px 0;
 }
 .table {
     display: table;

@@ -5,8 +5,9 @@
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
-    "start": "splendid-dev",
-    "dev": "splendid-dev -s",
+    "build": "splendid-dev",
+    "start": "splendid-dev -s",
+    "dev": "splendid-dev -s -e dev",
     "doc": "NODE_DEBUG=doc doc documentary -o README.md"
   },
   "repository": {
