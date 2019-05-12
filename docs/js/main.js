@@ -1,1 +1,3 @@
-// console.log('main js')
+(function(){}).call(this);
+
+//# sourceMappingURL=main.js.map

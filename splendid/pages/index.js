@@ -19,6 +19,10 @@ const redirects = {
     title: 'Typal',
     redirect: 'https://github.com/artdecocode/typal',
   },
+  goa: {
+    title: 'Goa',
+    redirect: 'https://github.com/idiocc/koa',
+  },
 }
 
 /**

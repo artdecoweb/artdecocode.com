@@ -1,0 +1,26 @@
+{
+  "depack": {
+    "v": "0.0.1",
+    "d": "Unpackager Of Dependencies To Create \"Zero-Dependency Build\" With Closure."
+  },
+  "@goa/koa": {
+    "v": "1.1.0",
+    "d": "The Koa2 Fork Optimized With Google Closure Compiler That Has Just 1 Dependency (mime-db)."
+  },
+  "argufy": {
+    "v": "1.7.0",
+    "d": "Parses Command Line Arguments To Node.JS CLI Programs, Keeps Them In Arguments.xml File To Paste Into README Documentation And Generate Google Closure Compatible Exports."
+  },
+  "usually": {
+    "v": "1.2.0",
+    "d": "Prints Usage For Node.JS Command-Line Applications."
+  },
+  "documentary": {
+    "v": "1.27.2",
+    "d": "A Documentation Pre-processor To Generate The Table Of Contents, Embed Examples With Their Output, Make Markdown Tables, Maintain Typedefs For JavaScript And README, Watch Changes To Push, Use Macros And Prettify API Titles."
+  },
+  "typal": {
+    "v": "1.13.0",
+    "d": "Organises TypeDefs By Placing Them Into Types.Xml File To Be Embedded Into Source Code Compatible With VSCode And Google Closure Compiler, Generates Externs And Allows To Place Documentation In README Markdown."
+  }
+}
