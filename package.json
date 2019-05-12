@@ -28,7 +28,7 @@
     "alamode": "^2.2.0",
     "documentary": "^1.27.2",
     "preact": "8.4.2",
-    "splendid": "^1.5.1",
+    "splendid": "^1.5.2",
     "zoroaster": "^4.1.1-alpha"
   },
   "dependencies": {}

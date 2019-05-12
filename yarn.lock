@@ -582,10 +582,10 @@ spawncommand@^2.2.0:
   dependencies:
     catchment "^3.3.0"
 
-splendid@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/splendid/-/splendid-1.5.1.tgz#c844f988bedd6fb6f98470f3905875e20485fb21"
-  integrity sha512-01KYz4Fka1/VJS2s7dGWe6h6obp6EkBI8iDern7b2aV5fOg0JPStM6528hte8jleAkdPPAsgnvGi7XClJt5aOA==
+splendid@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/splendid/-/splendid-1.5.2.tgz#b5c7ffd0518f29d95053b4e86ab56dac766cae9f"
+  integrity sha512-QnlWaukojr46kj9Vj4KGG2buY/qsU8UmHxSnkesh84ZgliJnvXklqhWgLQfSQ4CfkL2TOC+w3G18WiF5KSdQzQ==
   dependencies:
     "@depack/cache" "^1.0.0"
     "@depack/depack" "^1.2.2"
